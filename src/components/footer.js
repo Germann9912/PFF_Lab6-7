@@ -5,7 +5,7 @@ class FFooter extends Component{
     render(){
         return(
             <div className="footer">
-                <p className='footerP'> Bartłomiej Leśniewski 12K2 GL03</p>
+                <p className='footerP'> Daniel Morawski 12K2 GL04</p>
                 
 
 

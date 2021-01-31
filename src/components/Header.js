@@ -14,7 +14,7 @@ return (<div className="Head">
     
     <a href="faf" className='logoP'><img src={logo4} className="logo" alt="blad"></img></a>
     
-    <p >Bartłomiej Leśniewski - Moje Hobby</p>
+    <p >Daniel Morawski - Moje zainteresowania</p>
     
       </div>
 );}

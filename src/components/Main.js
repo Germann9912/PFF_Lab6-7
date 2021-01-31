@@ -43,30 +43,33 @@ class MMain extends Component{
                 <div className="hobby skate">
                     <h2 className="hobbyH2">Deskorolka</h2>
                     <Youtube/>
-                    <p className="skateP">Film Przedstawia Montaż Tricków na deskorolce. jeżdże na niej od wielu lat i wciąż polepszam swoje umiejętności<br/>
-                         Przykładowe Tricki:<br/>-Kickflip<br/>-Ollie<br/>-360 flip
+                    <p className="skateP">Film Przedstawia Montaż Tricków na deskorolce. Jeżdże od mniej więcej 10 roku życia.<br/>
                          </p>
                     
                     
 
                     </div>
                 <div className="hobby code">
-                    <h2 className="hobbyH2">Programowanie</h2>
+                    <h2 className="hobbyH2">Matematyka</h2>
                     <img className="hobbyImg1"  src={img1} alt="brak obrazu" />
-                    <p className="skateP" >Lubie programować, dlatego poszedłem na studia informatyczne. Interesuje mnie tworzenie aspektów wizualnych stron.
+                    <p className="skateP" >W matematyce najbardziej fascynuje mnie fakt, iż została stworzona, dzięki możliwości abstrakcyjnego myślenia człowieka.
+                    Zdążono rozwiązać już wiele zagadek, a co najlepsze, prawdopodobnie większość z nich nie zostało jeszcze odkrytych.
                          </p>
                 </div>
                 <div className="hobby music">
-                    <h2 className="hobbyH2">Muzyka</h2>
+                    <h2 className="hobbyH2">Cloud/Phonk Rap</h2>
                     <img className="hobbyImg2" onMouseOver={this.aMouseOver} onMouseOut={this.aMouseOut} src={img2} alt="brak obrazu" />
-                    <p className="skateP" ondblclick={this.aDblClick} >Lubie tworzyć muzyke, nagrywać piosenki oraz sledzic nowości na bierząco
+                    <p className="skateP" ondblclick={this.aDblClick} >Moje życie jest bardzo mocno powiązane z muzyką. Moim ulubionym gatunkiem jest wyżej wymieniony Cloud Rap i Phonk Rap.
+                     Dane gatunki charakteryzują się mrocznym klimatem.
+
                          </p>
                     </div>
                 <div className="hobby series">
-                    <h2 className="hobbyH2">Seriale</h2>
+                    <h2 className="hobbyH2">Dania</h2>
                     <img className="hobbyImg3" onDoubleClick={this.aDblClick} onCopy={this.aCopy} onPaste={this.aPaste}  src={img3} alt="brak obrazu" />
-                    <p className="skateP"  >Lubie oglądać seriale i czasami poświecam na to aż za dużo. Zobacz moje ulubione:
-                    <ALink/>
+                    <p className="skateP"  >Jestem miłośnikiem tego państwa i moim skrytym marzeniem jest kiedyś tam zamieszkać. 
+                    Podoba mi się duńska kultura, krajobraz i strefa klimatyczna.
+                    
                          </p>
                     
                     </div>
